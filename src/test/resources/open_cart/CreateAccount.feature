@@ -1,6 +1,6 @@
 @smoke
-Feature: Checkout account creation functionality
-  Scenario: User should be able to create an account
+Feature: Create account functionality
+  Scenario: User creates an account
     When User navigates to webpage user should be able to see the webpage logo "Your Store"
     Then User clicks on my account and clicks on register
     And User creates an account by providing "test" as a firstName
