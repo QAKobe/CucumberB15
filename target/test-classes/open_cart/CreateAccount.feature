@@ -5,7 +5,7 @@ Feature: Checkout account creation functionality
     Then User clicks on my account and clicks on register
     And User creates an account by providing "test" as a firstName
     Then User provides "Smith" as a lastName
-    When User provides "poppopo@hotmail.com" as an email
+    When User provides "yuyuy@hotmail.com" as an email
     Then user provides "3123332211" as a telephone number
     And User provides password and confirms the password
     Then User choose to check no on Subscribe radio button
